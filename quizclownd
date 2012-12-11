@@ -18,6 +18,7 @@
 #        daily
 #        rotate 1
 #        missingok
+#        copytruncate
 # }
 
 daemon -D `pwd` -E /var/log/quizclown ./bot2.py
